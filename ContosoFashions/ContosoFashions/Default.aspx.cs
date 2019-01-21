@@ -12,11 +12,10 @@ namespace ContosoFashions
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-        System.Diagnostics.Trace.WriteLine("System.Diagnostics.Trace.WriteLine() in the Page_Load method");
-        Trace.Write("Trace.Write() in the Page_Load method");
-        System.Diagnostics.Trace.TraceError("System.Diagnostics.Trace.TraceError() in the Page_Load method");
-        System.Diagnostics.Trace.TraceWarning("System.Diagnostics.Trace.TraceWarning() in the Page_Load method");
-        System.Diagnostics.Trace.TraceInformation("System.Diagnostics.Trace.TraceInformation() in the Page_Load method");
+        System.Diagnostics.Trace.WriteLine("Verbose message, in the Page_Load method for Default.aspx");
+        System.Diagnostics.Trace.TraceError("Error message, in the Page_Load method for Default.aspx");
+        System.Diagnostics.Trace.TraceWarning("Warning  message, in the Page_Load method for Default.aspx");
+        System.Diagnostics.Trace.TraceInformation("Information message, in the Page_Load method for Default.aspx");
         }
     }
 }
